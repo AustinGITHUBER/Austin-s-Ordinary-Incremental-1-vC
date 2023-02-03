@@ -1,0 +1,26 @@
+body {
+    background-color: #dcdcdc;
+    overflow: hidden;
+}
+button {
+    cursor: pointer;
+}
+body *:not(#versionDiv, #licenseDiv) {
+    font-size: 30px;
+}
+#AdisplayDiv1::before {
+    content: "A: ";
+}
+#firstButton1MaybeIdk::before {
+    content: "Upgrade 1st A generator, Costs ";
+}
+#versionDiv {
+    position: absolute;
+    bottom: 16px;
+    right: 0px;
+}
+#licenseDiv {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
